@@ -3,6 +3,7 @@ import './App.css'
 import AccessCard from './Composants/AccessCard'
 import Card from './Composants/Card'
 import Footer from './Composants/Footer'
+import CardGet from './Composants/CardGet'
 
 function App() {
   
@@ -28,7 +29,7 @@ function App() {
         </section>
 
         {/* acccess */}
-        <section className='bg-[url("../public/images/bg-curvy-desktop.svg")] bg-no-repeat bg-cover py-30 h-fit border-amber-500 border-2 '>
+        <section className='bg-[url("../public/images/bg-curvy-desktop.svg")] bg-no-repeat bg-cover py-30 h-fit '>
           <AccessCard />
 
           <div className='flex justify-center text-neutral-white px-20 py-10 gap-10'>
@@ -44,13 +45,15 @@ function App() {
           </div>
 
           {/* card */}
-          
+          <div>
+            <img src="../public/images/bg-quotes.png" className='' alt="" />
             <Card/>
-
-
-
-          
-
+          </div>       
+        </section>
+        
+        {/* Get early access */}
+        <section>
+          <CardGet />
         </section>
 
 

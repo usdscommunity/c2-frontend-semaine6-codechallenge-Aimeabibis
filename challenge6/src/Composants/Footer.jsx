@@ -33,9 +33,9 @@ function Footer () {
                     </ul>
                 </div>
                 <div className="flex gap-4">
-                    <img src="/images/icon-facebook.svg" alt="" />
-                    <img src="/images/icon-twitter.svg" alt="" />
-                    <img src="/images/icon-instagram.svg" alt="" />
+                    <i class="fa-brands fa-facebook-f rounded-full border-white border-1 h-5 w-5 p-1 hover:bg-teal-200 "></i>
+                    <i class="fa-brands fa-twitter rounded-full border-white border-1 h-5 w-5 p-1 hover:bg-teal-200"></i>
+                    <i class="fa-brands fa-instagram rounded-full border-white border-1 h-5 w-5 p-1 hover:bg-teal-200"></i>
                 </div>
 
 
