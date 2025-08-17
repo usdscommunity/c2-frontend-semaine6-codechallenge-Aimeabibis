@@ -2,6 +2,7 @@
 import './App.css'
 import AccessCard from './Composants/AccessCard'
 import Card from './Composants/Card'
+import Footer from './Composants/Footer'
 
 function App() {
   
@@ -43,16 +44,20 @@ function App() {
           </div>
 
           {/* card */}
-          <div className=''>
+          
             <Card/>
 
-          </div>
+
+
+          
 
         </section>
 
 
         
       </div>
+      {/* footer */}
+      <Footer />
       
     </>
   )

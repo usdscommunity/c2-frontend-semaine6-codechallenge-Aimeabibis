@@ -22,7 +22,7 @@ function Card () {
 
 
   return (
-    <div className='text-neutral-white p-4 w-full grid grid-cols-1 lg:grid-cols-3 gap-4 place-items-center '>
+    <div className='grid grid-cols-1 md:grid-cols-3 text-neutral-white p-4 w-full place-items-center '>
       {Cards.map(({ image, title, description, name }) => (
         <div key={title} className='flex flex-col text-neutral-white m-4 w-80 bg-primary-navy-850 p-6 rounded-lg shadow-xl'>
             <p className='text-sm'>{description}</p>
@@ -30,7 +30,7 @@ function Card () {
                 <img src={image} alt={title} className='w-8 h-8 mb-2 rounded-full' />
                 <div>
                     <p className='text-sm font-bold mt-2'>By {name}</p>
-                    <h4 className='text-sm mb-2'>{title}</h4>
+                    <h4 className='text-xs mb-2'>{title}</h4>
                 </div>
                 
             </div>      
